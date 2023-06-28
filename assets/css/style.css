@@ -1,0 +1,47 @@
+/* Global styling */
+
+:root {
+	font-size: 1rem;
+	--main-text-color: #FFFFFF;
+	--deep-green-color: #1FC77E;
+	--light-green-color: #05E283;
+	--main-bg-color: #111826;
+    --footer-bg-color: #000000;
+}
+
+/* Weight & Styles */
+
+/* FS Meridian Trial 100
+FS Meridian Trial 300
+FS Meridian Trial 400
+FS Meridian Trial 500
+FS Meridian Trial 700 - Bold */
+
+
+/* General Sans 200
+General Sans 300
+General Sans 400
+General Sans 500
+General Sans 600
+General Sans 700 */
+
+/* font-family: 'General Sans', sans-serif; */
+/* font-family: 'FS Meridian Trial', sans-serif; */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1440px;
+}
