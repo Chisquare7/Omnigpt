@@ -47,6 +47,7 @@ img {
 
 main {
 	background-color: var(--main-bg-color);
+    padding-bottom: 21.6em;
 }
 
 .inlineColor {
@@ -280,4 +281,147 @@ header {
     position: absolute;
     right: -20%;
     top: 20%;
+}
+
+
+
+/* Styling of second layout section */
+
+.secondLayout {
+    margin-top: 3.8em;
+}
+
+.poseContainer {
+    position: relative;
+}
+
+.poseStar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: -5em -1em 0em 0em;
+}
+
+.secondLayout-top {
+    display: flex;
+    align-items: center;
+}
+
+.testimonialHeading {
+    width: 70%;
+    border: 1px solid red;
+}
+
+.testimonialHead {
+    color: var(--main-text-color);
+	font-size: 2.25rem;
+	font-family: "FS Meridian Trial", sans-serif;
+	font-weight: 500;
+}
+
+.yellowStar {
+    width: 30%;
+    border: 1px solid green;
+}
+
+.secondLayout-btm {
+    margin-top: 1.88em;
+    border-radius: .625rem;
+    background: #414651;
+    padding: 1.88em 1.63em 2.19em 2.25em;
+}
+
+.ratingContain {
+    display: flex;
+    align-items: center;
+}
+
+.eachRating + .eachRating {
+    margin-left: 0.5em;
+}
+
+.testimonialTopic {
+    margin: 0.88em 0em;
+    padding-right: 0.38em;
+}
+
+.testimonialText {
+    color: var(--main-text-color);
+	font-family: "General Sans", sans-serif;
+	font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.testimonialContext {
+    color: var(--main-text-color);
+    font-size: 0.81rem;
+	font-family: "General Sans", sans-serif;
+	font-weight: 400;
+    line-height: 1.38rem;
+}
+
+.testimonialOwner {
+    margin-top: 1.75em;
+    display: flex;
+    align-items: center;
+}
+
+.testimonialName {
+    margin-left: 0.94em;
+}
+
+.ownerName {
+    color: var(--main-text-color);
+    font-size: 0.81rem;
+	font-family: "General Sans", sans-serif;
+	font-weight: 500;
+    line-height: 1.38rem;
+}
+
+.slidesDot {
+    text-align: center;
+    margin-top: 1.38em;
+}
+
+
+/* Styling of the smallie Float section */
+
+.smallieFloat {
+    background: var(--light-green-color);
+    border-radius: 0.625rem;
+    padding: 2.13em 1.13em;
+}
+
+.smallieHeading {
+    margin-bottom: 1.63em;
+    padding: 0em 0.88em 0em 0.5em;
+    text-align: center;
+}
+
+.smallieHead {
+    color: var(--black-bg-color);
+	font-size: 1.63rem;
+	font-family: "FS Meridian Trial", sans-serif;
+	font-weight: 500;
+}
+
+.smallieHead > span {
+    color: var(--main-text-color);
+}
+
+.smallieAction {
+    text-align: center;
+}
+
+.smallieClick {
+    padding: 1.31em 1.75em;
+    border-radius: 0.31rem;
+    border: none;
+    outline: none;
+    background: var(--black-bg-color);
+    color: var(--main-text-color);
+    font-size: 1.25rem;
+	font-family: "General Sans", sans-serif;
+	font-weight: 500;
+    line-height: 1rem;
 }
