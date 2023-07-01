@@ -47,7 +47,7 @@ img {
 
 main {
 	background-color: var(--main-bg-color);
-    padding-bottom: 21.6em;
+    padding-bottom: 8em;
 }
 
 .inlineColor {
@@ -62,6 +62,10 @@ header {
 
 .heroRight-col {
 	display: none;
+}
+
+.mobileHeroIcon {
+    position: relative;
 }
 
 .rectangleMobile {
@@ -88,7 +92,7 @@ header {
 
 .absoluteShiftMobile {
 	position: absolute;
-	bottom: 55%;
+    margin-top: -7.7em;
 }
 
 .heroHeading {
@@ -390,6 +394,8 @@ header {
     background: var(--light-green-color);
     border-radius: 0.625rem;
     padding: 2.13em 1.13em;
+    /* width: 80%;
+    margin: 0 auto; */
 }
 
 .smallieHeading {
@@ -419,6 +425,7 @@ header {
     border: none;
     outline: none;
     background: var(--black-bg-color);
+    cursor: pointer;
     color: var(--main-text-color);
     font-size: 1.25rem;
 	font-family: "General Sans", sans-serif;
@@ -474,4 +481,17 @@ header {
     color: var(--light-green-color);
     font-weight: 600;
     letter-spacing: 0.1rem;
+}
+
+
+/* Styling of positioning of smallie section between main and footer sections */
+
+.poseLand {
+    position: relative;
+}
+
+.smallieSection {
+    position: absolute;
+    margin: -5em auto 0em;
+    /* width: 100%; */
 }
