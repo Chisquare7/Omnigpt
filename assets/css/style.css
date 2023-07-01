@@ -425,3 +425,53 @@ header {
 	font-weight: 500;
     line-height: 1rem;
 }
+
+
+
+/* Styling of the footer section */
+
+.footerSection {
+    background: var(--black-bg-color);
+    padding: 17.25em 1.88em 3.56em 2.1em;
+}
+
+.footerLogo {
+    width: 8.8rem;
+    margin-bottom: 2.31em;
+}
+
+.footFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .footLists + .footLists {
+    margin-left: 1.5em;
+} */
+
+.footLists {
+    display: flex;
+    flex-direction: column;
+}
+
+.eachFoot + .eachFoot {
+    margin-top: 2.31em;
+}
+
+.footHeading {
+    margin: 2.63em 0em 2em;
+}
+
+.footHead, .footItems {
+    color: var(--main-text-color);
+    font-size: 1.13rem;
+	font-family: "General Sans", sans-serif;
+	font-weight: 500;
+    line-height: 1rem;
+}
+
+.footHead {
+    color: var(--light-green-color);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
