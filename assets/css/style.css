@@ -343,9 +343,9 @@ header {
 	background-position: center;
 	background-size: 1.5rem;
 	position: absolute;
-	top: 10%;
-	left: -15%;
-    z-index: 1;
+	top: 0;
+    margin: 2em 0 0 -1.2em;
+    z-index: 2;
 }
 
 .phoneGreen {
@@ -353,8 +353,8 @@ header {
 	border-radius: 60px 58px 58px 0px;
 	background-color: var(--deep-green-color);
 	position: absolute;
-	bottom: 20%;
-	left: -15%;
+	bottom: 0;
+    margin: 0 0 4.5em -1.8em;
 }
 
 .whatsApp {
@@ -366,8 +366,8 @@ header {
 	background-position: center;
 	background-size: 2.5rem;
     position: absolute;
-    right: -20%;
-    bottom: 10%;
+    right: 0;
+    margin: -6em -2em 0 0;
     z-index: 1;
 }
 
@@ -376,8 +376,8 @@ header {
 	border-radius: 60px 58px 58px 0px;
 	background-color: #FEEA00;
     position: absolute;
-    right: -20%;
-    top: 20%;
+    right: 0;
+    margin: 5em -2em 0 0;
 }
 
 
