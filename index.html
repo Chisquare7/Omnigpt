@@ -16,18 +16,23 @@
 		<div class="poseLand">
 			<main>
 				<header>
-					<div class="container">
+					<div class="container navContainer">
+						<button class="navToggle" aria-label="open navigation">
+							<span class="hamburger"></span>
+						</button>
 						<div class="mainLogo">
 							<img src="./assets/images/mainLogo.png" alt="Omnigpt Logo" />
 						</div>
-						<ul>
-							<li><a href="/">Blog</a></li>
-							<li><a href="/">Contact Us</a></li>
-							<li><a href="/">Sign</a></li>
-						</ul>
+						<nav class="nav">
+							<ul>
+								<li class="navItem"><a href="/" class="navLink">Blog</a></li>
+								<li class="navItem"><a href="/" class="navLink">Contact Us</a></li>
+								<li class="navItem"><a href="/" class="navLink">Sign</a></li>
+							</ul>
+						</nav>
 					</div>
 				</header>
-				<section>
+				<section class="heroSection">
 					<div class="container">
 						<div class="mobileHeroIcon">
 							<div class="rectangleMobile">
@@ -306,13 +311,23 @@
 							<div class="footerMiddle">
 								<div class="footMiddleTop footFlex">
 									<ul class="footLists">
-										<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
-										<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
-										<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
+										<li class="eachFoot">
+											<a href="/" class="footItems">Lorem Ipsum</a>
+										</li>
+										<li class="eachFoot">
+											<a href="/" class="footItems">Lorem Ipsum</a>
+										</li>
+										<li class="eachFoot">
+											<a href="/" class="footItems">Lorem Ipsum</a>
+										</li>
 									</ul>
 									<ul class="footLists">
-										<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
-										<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
+										<li class="eachFoot">
+											<a href="/" class="footItems">Lorem Ipsum</a>
+										</li>
+										<li class="eachFoot">
+											<a href="/" class="footItems">Lorem Ipsum</a>
+										</li>
 									</ul>
 								</div>
 								<div class="footMiddleBtm">
@@ -321,11 +336,17 @@
 									</div>
 									<div class="footFlex">
 										<ul class="footLists">
-											<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
-											<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
+											<li class="eachFoot">
+												<a href="/" class="footItems">Lorem Ipsum</a>
+											</li>
+											<li class="eachFoot">
+												<a href="/" class="footItems">Lorem Ipsum</a>
+											</li>
 										</ul>
 										<ul class="footLists">
-											<li class="eachFoot"><a href="/" class="footItems">Lorem Ipsum</a></li>
+											<li class="eachFoot">
+												<a href="/" class="footItems">Lorem Ipsum</a>
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -336,5 +357,8 @@
 				</div>
 			</footer>
 		</div>
+
+        <script src="/assets/javaScript/main.js"></script>
+
 	</body>
 </html>

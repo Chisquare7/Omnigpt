@@ -54,10 +54,101 @@ main {
 	color: var(--deep-green-color);
 }
 
-/* Styling of Hero section */
+
+/* Styling of Header section */
 
 header {
 	margin-bottom: 2em;
+    background: #111826;
+    padding: 1em 0;
+    border-bottom: .5px solid #ddd;
+}
+
+.mainLogo {
+    width: 7.31rem;
+}
+
+
+/* 1. Header section - Styling of the hamburger */
+
+.navContainer {
+    position: relative;
+}
+
+.nav {
+    width: 100%;
+    visibility: hidden;
+    height: 50vh;
+    position: absolute;
+    text-align: center;
+    margin: 2.5em 0em;
+    /* border: 1px solid #05e283; */
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+}
+
+.navToggle {
+    width: 3.5em;
+    height: 0em;
+    padding: 0em;
+    border: 0;
+    color: var(--main-text-color);
+    transition: opacity 250ms ease;
+    position: absolute;
+    right: 0;
+    margin-top: .6em;
+}
+
+.navToggle:focus,
+.navToggle:hover {
+    /* opacity: .75; */
+}
+
+.hamburger {
+    width: 50%;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0.1em auto;
+    height: 2px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.navLink {
+    color: var(--main-text-color);
+	font-size: 1.2rem;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 500;
+    line-height: 3.94rem;
+}
+
+
+
+/* Styling of Hero section */
+
+.heroSection {
+    padding-top: 1.5em;
 }
 
 .heroRight-col {
@@ -152,6 +243,8 @@ header {
 	font-size: 1.25rem;
 	line-height: 1rem;
 }
+
+
 
 /* Styling of the first Layout */
 
