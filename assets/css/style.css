@@ -47,108 +47,104 @@ img {
 
 main {
 	background-color: var(--main-bg-color);
-    padding-bottom: 8em;
+	padding-bottom: 8em;
 }
 
 .inlineColor {
 	color: var(--deep-green-color);
 }
 
-
 /* Styling of Header section */
 
 header {
 	margin-bottom: 2em;
-    background: #111826;
-    padding: 1em 0;
-    border-bottom: .5px solid #ddd;
+	background: #111826;
+	padding: 1em 0;
+	border-bottom: 0.5px solid #ddd;
 }
 
 .mainLogo {
-    width: 7.31rem;
+	width: 7.31rem;
 }
-
 
 /* 1. Header section - Styling of the hamburger */
 
 .navContainer {
-    position: relative;
+	position: relative;
 }
 
 .nav {
-    width: 100%;
-    visibility: hidden;
-    height: 50vh;
-    position: absolute;
-    text-align: center;
-    margin: 2.5em 0em;
-    /* border: 1px solid #05e283; */
+	width: 100%;
+	visibility: hidden;
+	height: 50vh;
+	position: absolute;
+	text-align: center;
+	margin: 2.5em 0em;
+	/* border: 1px solid #05e283; */
 }
 
 .nav--visible {
-    visibility: visible;
-    height: auto;
-    position: relative;
+	visibility: visible;
+	height: auto;
+	position: relative;
 }
 
 .navToggle {
-    width: 3.5em;
-    height: 0em;
-    padding: 0em;
-    border: 0;
-    color: var(--main-text-color);
-    transition: opacity 250ms ease;
-    position: absolute;
-    right: 0;
-    margin-top: .6em;
+	width: 3.5em;
+	height: 0em;
+	padding: 0em;
+	border: 0;
+	color: var(--main-text-color);
+	transition: opacity 250ms ease;
+	position: absolute;
+	right: 0;
+	margin-top: 0.6em;
 }
 
-.navToggle:focus,
+/* .navToggle:focus,
 .navToggle:hover {
-    /* opacity: .75; */
-}
+    opacity: .75;
+} */
 
 .hamburger {
-    width: 50%;
+	width: 50%;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    display: block;
-    margin: 0.1em auto;
-    height: 2px;
-    background: white;
+	display: block;
+	margin: 0.1em auto;
+	height: 2px;
+	background: white;
 }
 
 .hamburger::before,
 .hamburger::after {
-    content: '';
-    width: 100%;
+	content: "";
+	width: 100%;
 }
 
 .hamburger::before {
-    transform: translateY(-6px);
+	transform: translateY(-6px);
 }
 
 .hamburger::after {
-    transform: translateY(3px);
+	transform: translateY(3px);
 }
 
 .navLink {
-    color: var(--main-text-color);
+	color: var(--main-text-color);
 	font-size: 1.2rem;
-	font-family: 'General Sans', sans-serif;
+	font-family: "General Sans", sans-serif;
 	font-weight: 500;
-    line-height: 3.94rem;
+	line-height: 3.94rem;
 }
-
-
 
 /* Styling of Hero section */
 
 .heroSection {
-    padding-top: 1.5em;
+	padding-top: 1.5em;
 }
 
 .heroRight-col {
@@ -156,7 +152,7 @@ header {
 }
 
 .mobileHeroIcon {
-    position: relative;
+	position: relative;
 }
 
 .rectangleMobile {
@@ -183,7 +179,7 @@ header {
 
 .absoluteShiftMobile {
 	position: absolute;
-    margin-top: -7.7em;
+	margin-top: -7.7em;
 }
 
 .heroHeading {
@@ -243,8 +239,6 @@ header {
 	font-size: 1.25rem;
 	line-height: 1rem;
 }
-
-
 
 /* Styling of the first Layout */
 
@@ -313,14 +307,14 @@ header {
 
 .firstLayout-left {
 	margin-top: 3.13em;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .phoneSkeleton {
-    position: relative;
+	position: relative;
 	margin: 0 auto;
 	width: 50%;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .applePhone {
@@ -330,8 +324,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-    z-index: 1;
-	border: 1px solid coral;
+	z-index: 1;
+	/* border: 1px solid coral; */
 }
 
 .fbMessenger {
@@ -344,8 +338,8 @@ header {
 	background-size: 1.5rem;
 	position: absolute;
 	top: 0;
-    margin: 2em 0 0 -1.2em;
-    z-index: 2;
+	margin: 2em 0 0 -1.2em;
+	z-index: 2;
 }
 
 .phoneGreen {
@@ -354,195 +348,194 @@ header {
 	background-color: var(--deep-green-color);
 	position: absolute;
 	bottom: 0;
-    margin: 0 0 4.5em -1.8em;
+	margin: 0 0 4.5em -1.8em;
 }
 
 .whatsApp {
-    padding: 2em;
-    border-radius: 6.25rem;
+	padding: 2em;
+	border-radius: 6.25rem;
 	background: var(--main-text-color);
 	background-image: url(/assets/images/whatsApp.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 2.5rem;
-    position: absolute;
-    right: 0;
-    margin: -6em -2em 0 0;
-    z-index: 1;
+	position: absolute;
+	right: 0;
+	margin: -6em -2em 0 0;
+	z-index: 1;
 }
 
 .phoneYellow {
-    padding: 1.5em;
+	padding: 1.5em;
 	border-radius: 60px 58px 58px 0px;
-	background-color: #FEEA00;
-    position: absolute;
-    right: 0;
-    margin: 5em -2em 0 0;
+	background-color: #feea00;
+	position: absolute;
+	right: 0;
+	margin: 5em -2em 0 0;
 }
-
-
 
 /* Styling of second layout section */
 
 .secondLayout {
-    margin-top: 3.8em;
+	margin-top: 3.8em;
 }
 
 .poseContainer {
-    position: relative;
+	position: relative;
 }
 
 .poseStar {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    margin: -5em -1em 0em 0em;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	margin: -5em -1em 0em 0em;
 }
 
 .secondLayout-top {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .testimonialHeading {
-    width: 70%;
-    border: 1px solid red;
+	width: 70%;
+	border: 1px solid red;
 }
 
 .testimonialHead {
-    color: var(--main-text-color);
+	color: var(--main-text-color);
 	font-size: 2.25rem;
 	font-family: "FS Meridian Trial", sans-serif;
 	font-weight: 500;
 }
 
 .yellowStar {
-    width: 30%;
-    border: 1px solid green;
+	width: 30%;
+	border: 1px solid green;
 }
 
 .secondLayout-btm {
-    margin-top: 1.88em;
-    border-radius: .625rem;
-    background: #414651;
-    padding: 1.88em 1.63em 2.19em 2.25em;
+	margin-top: 1.88em;
+	border-radius: 0.625rem;
+	background: #414651;
+	padding: 1.88em 1.63em 2.19em 2.25em;
 }
 
 .ratingContain {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .eachRating + .eachRating {
-    margin-left: 0.5em;
+	margin-left: 0.5em;
 }
 
 .testimonialTopic {
-    margin: 0.88em 0em;
-    padding-right: 0.38em;
+	margin: 0.88em 0em;
+	padding-right: 0.38em;
 }
 
 .testimonialText {
-    color: var(--main-text-color);
+	color: var(--main-text-color);
 	font-family: "General Sans", sans-serif;
 	font-weight: 500;
-    line-height: 1.5rem;
+	line-height: 1.5rem;
 }
 
 .testimonialContext {
-    color: var(--main-text-color);
-    font-size: 0.81rem;
+	color: var(--main-text-color);
+	font-size: 0.81rem;
 	font-family: "General Sans", sans-serif;
 	font-weight: 400;
-    line-height: 1.38rem;
+	line-height: 1.38rem;
 }
 
 .testimonialOwner {
-    margin-top: 1.75em;
-    display: flex;
-    align-items: center;
+	margin-top: 1.75em;
+	display: flex;
+	align-items: center;
 }
 
 .testimonialName {
-    margin-left: 0.94em;
+	margin-left: 0.94em;
 }
 
 .ownerName {
-    color: var(--main-text-color);
-    font-size: 0.81rem;
+	color: var(--main-text-color);
+	font-size: 0.81rem;
 	font-family: "General Sans", sans-serif;
 	font-weight: 500;
-    line-height: 1.38rem;
+	line-height: 1.38rem;
 }
 
 .slidesDot {
-    text-align: center;
-    margin-top: 1.38em;
+	text-align: center;
+	margin-top: 1.38em;
 }
-
 
 /* Styling of the smallie Float section */
 
 .smallieFloat {
-    background: var(--light-green-color);
-    border-radius: 0.625rem;
-    padding: 2.13em 1.13em;
-    /* width: 80%;
+	background: var(--light-green-color);
+	border-radius: 0.625rem;
+	padding: 2.13em 1.13em;
+	/* width: 80%;
     margin: 0 auto; */
 }
 
 .smallieHeading {
-    margin-bottom: 1.63em;
-    padding: 0em 0.88em 0em 0.5em;
-    text-align: center;
+	margin-bottom: 1.63em;
+	padding: 0em 0.88em 0em 0.5em;
+	text-align: center;
 }
 
 .smallieHead {
-    color: var(--black-bg-color);
+	color: var(--black-bg-color);
 	font-size: 1.63rem;
 	font-family: "FS Meridian Trial", sans-serif;
 	font-weight: 500;
 }
 
 .smallieHead > span {
-    color: var(--main-text-color);
+	color: var(--main-text-color);
 }
 
 .smallieAction {
-    text-align: center;
+	text-align: center;
 }
 
 .smallieClick {
-    padding: 1.31em 1.75em;
-    border-radius: 0.31rem;
-    border: none;
-    outline: none;
-    background: var(--black-bg-color);
-    cursor: pointer;
-    color: var(--main-text-color);
-    font-size: 1.25rem;
+	padding: 1.31em 1.75em;
+	border-radius: 0.31rem;
+	border: none;
+	outline: none;
+	background: var(--black-bg-color);
+	cursor: pointer;
+	color: var(--main-text-color);
+	font-size: 1.25rem;
 	font-family: "General Sans", sans-serif;
 	font-weight: 500;
-    line-height: 1rem;
+	line-height: 1rem;
 }
-
-
 
 /* Styling of the footer section */
 
 .footerSection {
-    background: var(--black-bg-color);
-    padding: 17.25em 1.88em 3.56em 2.1em;
+	background: var(--black-bg-color);
+	padding: 17.25em 1.88em 3.56em 2.1em;
+}
+
+.footerPad {
+	padding-top: 3.8em;
 }
 
 .footerLogo {
-    width: 8.8rem;
-    margin-bottom: 2.31em;
+	width: 8.8rem;
+	margin-bottom: 2.31em;
 }
 
 .footFlex {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 /* .footLists + .footLists {
@@ -550,41 +543,171 @@ header {
 } */
 
 .footLists {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .eachFoot + .eachFoot {
-    margin-top: 2.31em;
+	margin-top: 2.31em;
 }
 
 .footHeading {
-    margin: 2.63em 0em 2em;
+	margin: 2.63em 0em 2em;
 }
 
-.footHead, .footItems {
-    color: var(--main-text-color);
-    font-size: 1.13rem;
+.footHead,
+.footItems {
+	color: var(--main-text-color);
+	font-size: 1.13rem;
 	font-family: "General Sans", sans-serif;
 	font-weight: 500;
-    line-height: 1rem;
+	line-height: 1rem;
 }
 
 .footHead {
-    color: var(--light-green-color);
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+	color: var(--light-green-color);
+	font-weight: 600;
+	letter-spacing: 0.1rem;
 }
-
 
 /* Styling of positioning of smallie section between main and footer sections */
 
 .poseLand {
-    position: relative;
+	position: relative;
 }
 
 .smallieSection {
-    position: absolute;
-    margin: -5em auto 0em;
-    /* width: 100%; */
+	position: absolute;
+	margin: -5em auto 0em;
+	/* width: 100%; */
 }
+
+/* Styling of media queries for different screen */
+
+@media (min-width: 490px) and (max-width: 600px) {
+	.fbMessenger {
+		margin-left: 0em;
+	}
+
+	.phoneGreen {
+		margin-left: 0em;
+	}
+
+	.whatsApp {
+		margin-right: 0em;
+	}
+
+	.phoneYellow {
+		margin-right: 0em;
+	}
+}
+
+
+@media (min-width: 601px) and (max-width: 670px) {
+	.fbMessenger {
+		margin-left: 1.2em;
+	}
+
+	.phoneGreen {
+		margin-left: 1em;
+	}
+
+	.whatsApp {
+		margin-right: 1em;
+	}
+
+	.phoneYellow {
+		margin-right: 1em;
+	}
+}
+
+@media (min-width: 670px) and (max-width: 750px) {
+	.fbMessenger {
+		margin-left: 2.2em;
+	}
+
+	.phoneGreen {
+		margin-left: 2em;
+	}
+
+	.whatsApp {
+		margin-right: 2em;
+	}
+
+	.phoneYellow {
+		margin-right: 2em;
+	}
+}
+
+@media (min-width: 750px) and (max-width: 820px) {
+	.fbMessenger {
+		margin-left: 3.3em;
+	}
+
+	.phoneGreen {
+		margin-left: 3em;
+	}
+
+	.whatsApp {
+		margin-right: 3em;
+	}
+
+	.phoneYellow {
+		margin-right: 3em;
+	}
+}
+
+@media (min-width: 821px) and (max-width: 900px) {
+	.fbMessenger {
+		margin-left: 4.3em;
+	}
+
+	.phoneGreen {
+		margin-left: 4em;
+	}
+
+	.whatsApp {
+		margin-right: 4em;
+	}
+
+	.phoneYellow {
+		margin-right: 4em;
+	}
+}
+
+@media (min-width: 901px) and (max-width: 960px) {
+	.fbMessenger {
+		margin-left: 5.3em;
+	}
+
+	.phoneGreen {
+		margin-left: 5em;
+	}
+
+	.whatsApp {
+		margin-right: 5em;
+	}
+
+	.phoneYellow {
+		margin-right: 5em;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+	.fbMessenger {
+		margin-left: 6.3em;
+	}
+
+	.phoneGreen {
+		margin-left: 6em;
+	}
+
+	.whatsApp {
+		margin-right: 6em;
+	}
+
+	.phoneYellow {
+		margin-right: 6em;
+	}
+}
+
